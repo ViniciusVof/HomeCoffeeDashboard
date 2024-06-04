@@ -4,8 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
+    "start:dev": "vite --mode development",
+    "start:stg": "vite --mode staging",
+    "start:prd": "vite --mode production",
+    "build:dev": "tsc && vite build --mode development",
+    "build:stg": "tsc && vite build --mode staging",
+    "build:prd": "tsc && vite build --mode production",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
