@@ -1,3 +1,5 @@
+import { Home } from "pages/Home";
+
 export function Loader() {
-  return <h1>HomeCoffee</h1>;
+  return <Home />;
 }
