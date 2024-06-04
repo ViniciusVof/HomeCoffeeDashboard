@@ -1,3 +1,7 @@
 export function Home() {
-  return <h1>Home</h1>;
+  return (
+    <div className="bg-black h-screen flex items-center justify-center text-white text-3xl">
+      <h1>Home</h1>
+    </div>
+  );
 }
